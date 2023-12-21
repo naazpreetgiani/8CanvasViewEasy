@@ -97,13 +97,8 @@ function draw() {
   ctx.fillStyle = player.color;
   ctx.fillRect(player.x - cnv.x, player.y, player.w, player.h);
 
-
-
   // Animation Loop
   requestAnimationFrame(draw);
-
-  // Constrain view and PLAYER at 0 and 1750
-  // view goes back to zero or stays at 1750
 }
 
 // Event Listeners & Handlers
